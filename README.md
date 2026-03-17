@@ -64,7 +64,7 @@ A Power BI project exploring 12 million taxi trips across New York City
 
 ### Interactive Version:
 Want to explore the full Power BI file?
-- Email me at: your.email@example.com
+- Email me at: [syedawaiswaseem@gmail.com]
 - I'll share the .pbix file via Google Drive
 
 **Note:** The .pbix file exceeds GitHub's size limits, so it's shared separately.
