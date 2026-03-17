@@ -205,3 +205,22 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+# NYC Taxi Analytics specific ignores
+
+# Data files (too large for GitHub)
+*.csv
+data/*.csv
+data/*.xlsx
+data/*.xls
+
+# Power BI temp files
+*.pbix.tmp
+*.pbix~RF*.tmp
+
+# Large exports
+*.zip
+*.7z
+
+# Personal notes
+notes/
+scratch/
