@@ -47,7 +47,7 @@ A Power BI project exploring 12 million taxi trips across New York City
 ## 📁 Repo Structure
 
 ```
-📂 dashboards/     → .pbix file + PDF version
+📂 dashboards/     → .pbix file
 📂 screenshots/    → dashboard previews
 📂 documentation/  → data dictionary + DAX formulas
 📂 data/           → download instructions (dataset is ~2GB)
@@ -55,13 +55,19 @@ A Power BI project exploring 12 million taxi trips across New York City
 
 ---
 
-## 🚀 Running It Yourself
+## 🚀 How to View This Project
 
-1. Download the dataset from [Kaggle](https://www.kaggle.com/datasets/elemento/nyc-yellow-taxi-trip-data?select=yellow_tripdata_2015-01.csv)
-2. Open the `.pbix` file from `/dashboards`
-3. Update the data source path in Power Query
+### Quick View (No Software Needed):
+1. Check out the **PDF** in the `dashboards` folder
+2. Browse the **screenshots** to see each dashboard
+3. Read the **documentation** for technical details
 
-No Power BI? The PDF and screenshots folder have you covered.
+### Interactive Version:
+Want to explore the full Power BI file?
+- Email me at: your.email@example.com
+- I'll share the .pbix file via Google Drive
+
+**Note:** The .pbix file exceeds GitHub's size limits, so it's shared separately.
 
 ---
 
