@@ -2,14 +2,11 @@
 
 This folder contains the Power BI dashboard export.
 
-## View the Dashboards
-📄 **NYC_Taxi_Analytics_Dashboards.pdf** - Click to view all three dashboards
+## Files
+- `NYC_Taxi_Analytics_Dashboards.pdf` - PDF export of all three dashboard pages
 
-## Interactive Version
-The full Power BI file (.pbix) is available upon request due to file size.
+## View the dashboards
+Open `NYC_Taxi_Analytics_Dashboards.pdf` to see all three pages.
 
-**Want to play with the interactive version?**
-📧 Email me: your.email@example.com  
-💬 Or message me on LinkedIn!
-
-I can share it via Google Drive/Dropbox.
+## Interactive version
+The full Power BI file (.pbix) is too large to host here. To explore it interactively, email me at syedawaiswaseem@gmail.com or message me on LinkedIn, and I'll share it via Google Drive.
