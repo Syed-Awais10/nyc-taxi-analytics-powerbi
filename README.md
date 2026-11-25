@@ -2,7 +2,7 @@
  
 An interactive four-page Power BI report on **12.4M NYC yellow-taxi trips from January 2015**. It shows when and where demand is highest, how fares vary by rate code and zone, and how card riders tip.
  
-Built end to end: Power Query cleaning of a 1.84 GB CSV, a star-schema data model, 24 DAX measures and three dashboards plus a data notes page.
+Built end to end: Power Query cleaning of a 1.84 GB CSV, a star-schema data model, 36 DAX measures (24 core KPIs plus analysis and data-audit measures) and three dashboards plus a data notes page.
  
 ![Executive overview](screenshots/dashboard1_executive_overview.png)
 ![Demand analysis](screenshots/dashboard2_demand_analysis.png)
@@ -55,7 +55,9 @@ A star schema: one fact table and four dimensions.
  
 - **Fact:** `Trips`
 - **Dimensions:** `DateTable`, `TimeTable`, `RateCodeDim`, `PaymentTypeDim` (each one-to-many to `Trips`)
-- **Measures table:** `_Measures` (24 measures)
+- **Measures table:** `_Measures` (36 measures)
+
+Full column and measure definitions: [`documentation/data_dictionary.md`](documentation/data_dictionary.md) and [`documentation/dax_measures.md`](documentation/dax_measures.md).
 
 Weekday/weekend flags and day names come from `DateTable` only.
  
